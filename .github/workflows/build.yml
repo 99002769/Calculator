@@ -16,7 +16,7 @@ jobs:
     - uses: actions/checkout@v2
       
     - name: make all
-      run:  make all 
+      run:  make -C implementation
 - name: Setup gcloud environment
   # You may pin to the exact commit or the version.
   # uses: GoogleCloudPlatform/github-actions@61938f87149d8a75fd3d7385a5081d8a4169156d
