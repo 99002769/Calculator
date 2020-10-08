@@ -20,4 +20,4 @@ jobs:
     - name: make test
       run: |
         make test -C Calculator
-        valgrind ./main.c
+        valgrind implementations/main.c
